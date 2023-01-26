@@ -22,10 +22,20 @@ Now create a new file in which we want to paste the content using write access m
 Developed by: LOKESH RAHUL V V
 Register no: 22004702
 
-with open("sample1.txt", "r") as firstfile:
-    with open("sample2.txt", "a") as secondfile:
-        for line in firstfile:
-            secondfile.write(line)
+print("Enter the Name of Source File: ")
+sFile = input()
+print("Enter the Name of Target File: ")
+tFile = input()
+fileHandle = open(sFile, "r")
+texts = fileHandle.readlines()
+fileHandle.close()
+
+fileHandle = open(tFile, "w")
+for s in texts:
+    fileHandle.write(s)
+fileHandle.close()
+
+print("\nFile Copied Successfully!")
 ``` 
 ### OUTPUT:
 
