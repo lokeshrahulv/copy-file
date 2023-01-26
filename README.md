@@ -19,6 +19,9 @@ Now create a new file in which we want to paste the content using write access m
  End the program.
 ## PROGRAM:
 ```
+Developed by: LOKESH RAHUL V V
+Register no: 22004702
+
 with open("sample1.txt", "r") as firstfile:
     with open("sample2.txt", "a") as secondfile:
         for line in firstfile:
@@ -26,9 +29,11 @@ with open("sample1.txt", "r") as firstfile:
 ``` 
 ### OUTPUT:
 
-![image](https://user-images.githubusercontent.com/118423842/214330892-bddac5d7-59fb-4586-984d-d6a6cd3a2746.png)
-![image](https://user-images.githubusercontent.com/118423842/214331618-a16d6382-bc52-4dce-b3e0-854148b76761.png)
-![image](https://user-images.githubusercontent.com/118423842/214331789-bedb2058-0bd6-4dc3-943b-e8b77545c55c.png)
+![rec 1](https://user-images.githubusercontent.com/118423842/214763512-726a8706-45d0-4c46-8927-2d72dbae7e6c.jpg)
+![rec2](https://user-images.githubusercontent.com/118423842/214763552-8e81c92e-dbe1-4b23-b071-c2957557a6f4.jpg)
+![rec3](https://user-images.githubusercontent.com/118423842/214763575-1207f1d2-d702-4e47-b58d-63ba85789c44.jpg)
+
+
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
