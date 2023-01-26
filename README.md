@@ -38,12 +38,9 @@ fileHandle.close()
 print("\nFile Copied Successfully!")
 ``` 
 ### OUTPUT:
-
-![rec 1](https://user-images.githubusercontent.com/118423842/214763512-726a8706-45d0-4c46-8927-2d72dbae7e6c.jpg)
+![rec 1](https://user-images.githubusercontent.com/118423842/214764017-926ba070-263a-4e69-a9d9-e2ed95b1a4b4.jpg)
 ![rec2](https://user-images.githubusercontent.com/118423842/214763552-8e81c92e-dbe1-4b23-b071-c2957557a6f4.jpg)
 ![rec3](https://user-images.githubusercontent.com/118423842/214763575-1207f1d2-d702-4e47-b58d-63ba85789c44.jpg)
-
-
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
